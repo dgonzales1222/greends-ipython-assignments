@@ -14,7 +14,9 @@
 amount_due = 50  # Variable declaration and initialization for the amount due of one bottle of Coca-Cola in the vending machine
 
 while amount_due > 0:  # The while loop continues to prompt for coins while the amount due is greater than 0.
+    
     print(f"Amount due: {amount_due}")  # Displays the initial amount due, which is 50 cents.
+
     inserted_coin = int(input("Insert Coin: "))  # Prompts the user to insert a coin.
 
     if inserted_coin == 25 or inserted_coin == 10 or inserted_coin == 5:  # Checks if the inserted coin is an accepted denomination.
