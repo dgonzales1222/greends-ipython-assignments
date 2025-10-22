@@ -16,7 +16,7 @@
 # .zip → application/zip
 
 # Conditions
-# 1. File extensions are case-insensitive (.PDF = .pdf).
+# 1. File extensions are case-insensitive (.PDF = .pdf = .PdF).
 # 2. If the file extension is not in the list above, output "application/octet-stream".
 
 # Prompt the user to enter the filename and store it in the variable "file".
