@@ -30,8 +30,8 @@ total = 0.00
 # explicitly tell the program to stop (by catching an EOFError)
 while True:
     try:                                            # Start of try block to handle EOFError when user inputs Ctrl + D
-                                                    # Ask the user for orders by inputting the menu item.
-        order = input("Item: ").title().strip()     # .title() string method converts the input into titlecase.
+        order = input("Item: ").title().strip()     # Ask the user for orders by inputting the menu item.
+                                                    # .title() string method converts the input into titlecase.
         if order in menu:                           # Checks if the entered order matches a key in the menu dictionary.
             total += menu[order]                    # Adds the corresponding menu price to the running total.
             print(f"Total: ${total:.2f}")           # Displays the total cost formatted to two decimal places.
